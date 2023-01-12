@@ -7,10 +7,10 @@ const App = () => {
   return (
     // ! rendering routes to layout
     <Layout>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/aboutMe' element={<AboutMe />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/aboutMe' element={<AboutMe />} />
+        </Routes>
     </Layout>
   );
 };
