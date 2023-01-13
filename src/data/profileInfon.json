@@ -5,6 +5,7 @@
     "techs": ["npm", "mui", "redux", "styled-components"],
     "link": "https://foodies-eta.vercel.app/",
     "duration": "4-days",
+    "pictures":"../assets/pictures/Screenshot7.png",
     "description": ""
   },
   {
@@ -13,6 +14,7 @@
     "techs": ["npm", "redux", "css", "styled-components"],
     "link": "https://storify-parham-mosadeqzadeh.vercel.app/",
     "duration": "7-days",
+    "pictures":"../assets/pictures/Screenshot8.png",
     "description": ""
   },
   {
@@ -21,6 +23,7 @@
     "techs": ["npm", "jotai", "tailwind"],
     "link": "https://todos-jotai-int.vercel.app/",
     "duration": "1-days",
+    "pictures": "../assets/pictures/Screenshot9.png",
     "description": ""
   }
 ]
