@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "foodies",
+    "techs": ["npm", "mui", "redux", "styled-components"],
+    "link": "https://foodies-eta.vercel.app/",
+    "duration": "4-days",
+    "description": ""
+  },
+  {
+    "id": "2",
+    "name": "storify",
+    "techs": ["npm", "redux", "css", "styled-components"],
+    "link": "https://storify-parham-mosadeqzadeh.vercel.app/",
+    "duration": "7-days",
+    "description": ""
+  },
+  {
+    "id": "3",
+    "name": "Todo",
+    "techs": ["npm", "jotai", "tailwind"],
+    "link": "https://todos-jotai-int.vercel.app/",
+    "duration": "1-days",
+    "description": ""
+  }
+]

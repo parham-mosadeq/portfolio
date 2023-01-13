@@ -4,6 +4,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {},
+    fontFamily: {
+      lobster: ['Lobster', 'sans-serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
+    },
   },
   plugins: [],
 };
