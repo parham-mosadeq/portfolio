@@ -7,7 +7,7 @@ const Title = ({ children }) => {
   capitalize
   text-left
   text-blue-700
-  dark:text-blue-900
+  dark:text-blue-300
   font-montserrat
   font-bold 
   border-black
@@ -15,6 +15,7 @@ const Title = ({ children }) => {
   block
   my-4
   w-3/12
+  dark:border-white
   
   '
     >

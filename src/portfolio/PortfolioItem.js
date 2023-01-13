@@ -13,7 +13,7 @@ const PortfolioItem = ({
         {name}
       </h4>
       <div className=' '>
-        <img className='h-16   object-cover' src={pictures} alt={name} />
+        <img className='h-16 object-cover' src={pictures} alt={name} />
       </div>
       <div className=''>
         <p>
@@ -21,7 +21,7 @@ const PortfolioItem = ({
             return (
               <span
                 key={idx}
-                className='flex flex-wrap border font-montserrat text-sm md:text-md font-light  m-2 p-1   w-fit  border-blue-900'
+                className='flex flex-wrap border  font-montserrat text-sm md:text-md font-light  m-2 p-1   w-fit  border-blue-900'
               >
                 {tech}
               </span>

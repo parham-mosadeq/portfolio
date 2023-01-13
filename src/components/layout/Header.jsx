@@ -9,7 +9,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className='relative flex md:items-center md:h-4  md:py-7  md:justify-around  justify-between capitalize  bg-gradient-to-l to-blue-200 from-red-200 '>
+    <div className='relative flex md:items-center md:h-4  md:py-7  md:justify-around  justify-between capitalize dark:bg-black  bg-neutral-200 z-50 '>
       {/* logo */}
       <div className='ml-2 my-3'>
         <h1 className='font-bold tracking-widest font-lobster text-blue-600'>
