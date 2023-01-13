@@ -8,7 +8,7 @@ const PortfolioItem = ({
   pictures,
 }) => {
   return (
-    <main className='    my-4'>
+    <main className='my-4'>
       <h4 className='font-montserrat  font-extrabold tracking-wider capitalize'>
         {name}
       </h4>

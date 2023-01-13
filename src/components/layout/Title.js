@@ -6,11 +6,12 @@ const Title = ({ children }) => {
       className='
   capitalize
   text-left
-  border-b-4
   text-blue-700
-  dark:text-white
+  dark:text-blue-900
   font-montserrat
+  font-bold 
   border-black
+  border-b-4
   block
   my-4
   w-3/12

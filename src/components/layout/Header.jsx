@@ -9,7 +9,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className='relative flex md:items-center md:h-4  md:mt-4  md:justify-around  justify-between    capitalize   '>
+    <div className='relative flex md:items-center md:h-4  md:py-7  md:justify-around  justify-between capitalize  bg-gradient-to-l to-blue-200 from-red-200 '>
       {/* logo */}
       <div className='ml-2 my-3'>
         <h1 className='font-bold tracking-widest font-lobster text-blue-600'>
@@ -48,7 +48,7 @@ const Header = () => {
               className='hover:cursor-pointer hover:text-gray-500 text-md md:text-lg '
               to='/aboutMe'
             >
-              AboutME
+              About me
             </Link>
           </li>
           <li className='my-3 dark:text-blue-400 md:mx-4 '>
@@ -57,7 +57,10 @@ const Header = () => {
             </Link>
           </li>
           <li className='my-3 dark:text-blue-400 md:mx-4'>
-            <Link to='/contactMe' className='hover:cursor-pointer hover:text-gray-500 text-md md:text-lg'>
+            <Link
+              to='/contactMe'
+              className='hover:cursor-pointer hover:text-gray-500 text-md md:text-lg'
+            >
               contact me
             </Link>
           </li>

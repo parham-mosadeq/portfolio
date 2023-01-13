@@ -12,7 +12,7 @@ const Home = () => {
   }, []);
 
   return (
-    <main className='w-full h-full overflow-x-hidden my-0 '>
+    <main className='w-full h-full overflow-x-hidden my-0 bg-gradient-to-l from-blue-100 to-red-100  '>
       <article className='my-10  flex flex-col md:max-w-lg max-w-sm mx-auto'>
         {/* who am i */}
         <div className='w-60 h-60 block'>
