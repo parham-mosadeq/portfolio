@@ -12,7 +12,7 @@ const Works = () => {
       <article className='pt-5 md:max-w-lg max-w-sm mx-auto '>
         <div>
           <h3
-            className='text-left capitalize tracking-widest text-blue-600 font-lobster 
+            className='text-center capitalize tracking-widest text-blue-600 font-lobster 
           font-lighter dark:text-blue-400'
           >
             here is my full discovery:
