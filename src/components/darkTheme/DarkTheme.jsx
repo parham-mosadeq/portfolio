@@ -5,7 +5,6 @@ const darkModeAtom = atomWithStorage('theme', false);
 const DarkTheme = () => {
   const [darkMode, setDarkMode] = useAtom(darkModeAtom);
   const toggleTheme = () => {
-    console.log(darkMode === 'dark');
     if (darkMode) {
       setDarkMode(false);
       document.body.classList.add('dark');
@@ -21,9 +20,9 @@ const DarkTheme = () => {
         onClick={() => toggleTheme()}
       >
         {darkMode ? (
-          <span className='text-yellow-500 text-4xl '>☀</span>
-        ) : (
           <span className='  text-4xl '> 🌑</span>
+        ) : (
+          <span className='text-yellow-500 text-4xl '>☀</span>
         )}
       </button>
     </div>

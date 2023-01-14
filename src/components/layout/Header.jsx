@@ -52,7 +52,7 @@ const Header = () => {
             </Link>
           </li>
           <li className='my-3 dark:text-blue-400 md:mx-4 '>
-            <Link className='hover:cursor-pointer hover:text-gray-500 text-md md:text-lg'>
+            <Link to='work' className='hover:cursor-pointer hover:text-gray-500 text-md md:text-lg'>
               work
             </Link>
           </li>

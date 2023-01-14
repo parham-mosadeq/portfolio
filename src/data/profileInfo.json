@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "foodies",
+    "techs": ["styled-components ", "mui", "redux", "npm"],
+    "link": "https://foodies-eta.vercel.app/",
+    "duration": "4-days",
+    "pictures": "../assets/pictures/Screenshot7.png",
+    "description": "foodies is a project that contains 100+ food recipes from 0 to 100.\n it also has a random page that gives you a random recipe on reload "
+  },
+  {
+    "id": "2",
+    "name": "storify",
+    "techs": [" styled-components", "redux", "css", "npm"],
+    "link": "https://storify-parham-mosadeqzadeh.vercel.app/",
+    "duration": "7-days",
+    "pictures": "../assets/pictures/Screenshot8.png",
+    "description": "storify is basically an e-commerce website using real api.\n in this project design wasn't my main goal, what was my main goal you may ask! well it was the e-commerce login and it's implementation."
+  },
+  {
+    "id": "3",
+    "name": "Todo",
+    "techs": ["npm", "jotai", "tailwind"],
+    "link": "https://todos-jotai-int.vercel.app/",
+    "duration": "1-days",
+    "pictures": "../assets/pictures/Screenshot9.png",
+    "description": "this little todo project is basically a simple testing project for me to get to know jotai & tailwind better"
+  }
+]

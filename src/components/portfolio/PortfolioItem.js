@@ -12,10 +12,10 @@ const PortfolioItem = ({
       <h4 className='font-montserrat  font-extrabold tracking-wider capitalize'>
         {name}
       </h4>
-      <div className=' '>
+      <div>
         <img className='h-16 object-cover' src={pictures} alt={name} />
       </div>
-      <div className=''>
+      <div>
         <p>
           {techs.map((tech, idx) => {
             return (
