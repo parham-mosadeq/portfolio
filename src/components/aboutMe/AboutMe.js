@@ -9,17 +9,22 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className='w-full mx-auto h-screen dark:bg-black my-0 '>
+    <main className='w-full mx-auto h-screen dark:bg-black my-0 '>
       <DarkTheme />
-      <div className='md:max-w-xl max-w-sm mx-auto p-0 -mt-5'>
-        <div className='py-10'>
+      <div
+        className='max-w-sm
+  md:max-w-lg
+  lg:max-w-xl
+   mx-auto p-0 -mt-5'
+      >
+        <div className='py-10 mx-auto'>
           <Title>who am i?</Title>
         </div>
-        <div className='block'>
+        <div className='block text-center'>
           <p className='font-montserrat font-medium text-justify text-sm md:text-lg text-stone-500 dark:text-white'>
             Hi, i'm
           </p>
-          <div className='font-montserrat font-light  text-sm text-blue-500'>
+          <div className='font-montserrat font-light  text-sm text-blue-500 text-justify'>
             <TypeAnimation
               sequence={[
                 'Parham mosadeqzadeh', // Types 'One'
@@ -53,7 +58,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

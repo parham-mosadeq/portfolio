@@ -58,6 +58,7 @@ const Contact = () => {
       focus:outline-none active:outline-none p-1 my-5 rounded-md bg-gradient-to-r from-blue-600 to-red-600  
       dark:bg-gradient-to-r dark:to-red-600 dark:from-blue-600
       hover:transition-all
+      animate-bounce
       '
         >
           Send

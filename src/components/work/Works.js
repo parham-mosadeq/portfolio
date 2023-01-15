@@ -19,14 +19,14 @@ const Works = () => {
           </h3>
         </div>
       </article>
-      <article className='mb-48 w-6/12 h-full '>
-        <div className='grid grid-cols-1 md:grid-cols-1     gap-2'>
+      <article className='mb-48 w-full h-full '>
+        <div className='grid grid-cols-1 md:grid-cols-1 w-full gap-2'>
           {profileInfo.map((project) => {
             const { id, name, techs, link, duration, description, pictures } =
               project;
 
             return (
-              <div className='w-96 mx-auto block  ' key={id}>
+              <div className='w-7/12 mx-auto  ' key={id}>
                 <WorkItems
                   name={name}
                   techs={techs}

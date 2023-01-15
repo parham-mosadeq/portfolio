@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { cutString } from '../../function/stringCutter';
 const PortfolioItem = ({
   name,
   techs,
@@ -8,7 +10,14 @@ const PortfolioItem = ({
   pictures,
 }) => {
   return (
-    <main className='my-4'>
+    <main
+      className='my-4    
+    mx-auto
+        md:max-w-lg
+        lg:max-w-xl
+    
+    '
+    >
       <h4 className='font-montserrat  font-extrabold tracking-wider capitalize'>
         {name}
       </h4>
@@ -30,7 +39,7 @@ const PortfolioItem = ({
         </p>
         <p className='  mt-3'>
           <a
-            className='text-blue-500 '
+            className='text-blue-500 hover:text-blue-600 '
             rel='noreferrer'
             href={link}
             target='_blank'
@@ -38,7 +47,13 @@ const PortfolioItem = ({
             check it out!
           </a>
         </p>
-        <p className='text-stone-500 my-2 dark:text-white'>{description}</p>
+        <p className='text-stone-500 my-2 dark:text-white'>
+          {cutString({ str: description, lng: 10 })}
+          <Link to='work' className='text-blue-500 hover:text-blue-700'>
+            {' '}
+            Read More...
+          </Link>
+        </p>
         <span className='text-stone-400 dark:text-stone-600'>{duration}</span>
       </div>
     </main>

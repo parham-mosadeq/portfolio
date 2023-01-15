@@ -11,8 +11,15 @@ const Home = () => {
   }, []);
 
   return (
-    <main className='dark:bg-black w-full min-h-screen overflow-x-hidden my-0 bg-neutral-100 '>
-      <div className='my-10   flex flex-col   md:max-w-lg max-w-sm mx-auto'>
+    <main className='dark:bg-black mx-auto w-full min-h-screen overflow-x-hidden my-0 bg-neutral-100 '>
+      <div
+        className='my-10 
+        max-w-xs
+        mx-auto
+        md:max-w-lg
+        lg:max-w-xl
+        flex flex-col  max-w-sx '
+      >
         <article className=''>
           <DarkTheme />
           {/* who am i */}
@@ -38,7 +45,10 @@ const Home = () => {
             </p>
           </div>
           {/* work section */}
-          <div className='dark:text-white m-0   '>
+          <div
+            className='dark:text-white m-0 
+          '
+          >
             <Title>projects</Title>
             <Portfolio />
           </div>

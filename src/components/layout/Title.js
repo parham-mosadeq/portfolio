@@ -16,6 +16,9 @@ const Title = ({ children }) => {
   my-4
   w-3/12
   dark:border-white
+  max-w-sm
+  md:max-w-lg
+  lg:max-w-xl
   
   '
     >
