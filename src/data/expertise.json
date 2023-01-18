@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "exp": "tailwind"
+  },
+  {
+    "id": 2,
+    "exp": "HTML"
+  },
+  {
+    "id": 3,
+    "exp": "Css"
+  },
+  {
+    "id": 4,
+    "exp": "javaScript"
+  },
+  {
+    "id": 5,
+    "exp": "styled components"
+  },
+  {
+    "id": 6,
+    "exp": "graphQl"
+  },
+  {
+    "id": 7,
+    "exp": "React js"
+  },
+  {
+    "id": 8,
+    "exp": "redux"
+  },
+  {
+    "id": 9,
+    "exp": "ubuntu"
+  }
+]

@@ -21,8 +21,12 @@ const PortfolioItem = ({
       <h4 className='font-montserrat  font-extrabold tracking-wider capitalize'>
         {name}
       </h4>
-      <div>
-        <img className='h-16 object-cover' src={pictures} alt={name} />
+      <div className='w-full h-full'>
+        <img
+          className='w-full h-full my-1 object-cover'
+          src={pictures}
+          alt={name}
+        />
       </div>
       <div>
         <p>

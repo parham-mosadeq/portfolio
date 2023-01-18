@@ -5,10 +5,10 @@ const Portfolio = () => {
   return (
     <main
       className='
-      w-96  
-      grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3
-      2xl:grid-cols-3 2xl:min-w-full
-      gap-2
+      min-w-full 
+      grid grid-cols-1 
+      2xl:min-w-full
+      gap-y-6
       max-w-xs
       md:max-w-lg
       lg:max-w-xl
@@ -22,8 +22,7 @@ const Portfolio = () => {
           <div
             key={id}
             className='
-            
-            
+            w-80
             border-2 border-stone-300 mx-auto p-2   '
           >
             <PortfolioItem

@@ -45,12 +45,11 @@ const Home = () => {
             </p>
           </div>
           {/* work section */}
-          <div
-            className='dark:text-white m-0 
-          '
-          >
+          <div className='dark:text-white m-0 '>
             <Title>projects</Title>
-            <Portfolio />
+            <div className='my-14'>
+              <Portfolio />
+            </div>
           </div>
         </article>
       </div>
