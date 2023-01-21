@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 const WorkItems = ({ name, techs, link, duration, description, pictures }) => {
   return (
     <div className='border-2 my-10  min-h-48 min-w-screen '>
@@ -7,12 +6,14 @@ const WorkItems = ({ name, techs, link, duration, description, pictures }) => {
         <div className='flex justify-between relative '>
           <div className='mt-2'>
             <div className='flex flex-row   items-center justify-center m-0'>
-              <Link
-                to={link}
+              <a
+                href={link}
+                target='_blank'
+                rel='noreferrer'
                 className=' text-blue-500 py-0 font-bold font-montserrat capitalize  '
               >
                 {name}
-              </Link>
+              </a>
               {/* duration start */}
               <div className='ml-2 rounded-sm my-0  self-center '>
                 <p className='text-sky-600 capitalize font-montserrat font-light'>

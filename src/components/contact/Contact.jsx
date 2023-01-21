@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react';
 import DarkTheme from '../darkTheme/DarkTheme';
-
 const Contact = () => {
   useEffect(() => {
     document.title = 'Parham Mosadeqzadeh | Contact me';
-    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
   }, []);
 
   return (
-    <div className='flex bg-neutral-50 flex-col h-screen w-full items-center justify-start dark:bg-black'>
+    <main className='flex bg-neutral-50 flex-col h-screen w-full items-center justify-start dark:bg-slate-800'>
       <DarkTheme />
       <form
         action='https://getform.io/f/234817f3-23e2-4906-8a90-7cb027ff1da0'
@@ -64,7 +62,11 @@ const Contact = () => {
           Send
         </button>
       </form>
-    </div>
+      <article>
+        <h3 className='dark:text-stone-100 text-left hover:cursor-pointer'>
+        </h3>
+      </article>
+    </main>
   );
 };
 

@@ -5,13 +5,14 @@ import Portfolio from '../portfolio/Portfolio';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import DarkTheme from '../darkTheme/DarkTheme';
+import ScrollToTop from '../shared/ScrollToTop';
 const Home = () => {
   useEffect(() => {
     document.title = 'Parham Mosadeqzadeh | Home';
   }, []);
 
   return (
-    <main className='dark:bg-black mx-auto w-full min-h-screen overflow-x-hidden my-0 bg-neutral-100 '>
+    <main className='dark:bg-slate-800 mx-auto w-full min-h-screen overflow-x-hidden my-0 bg-neutral-100 '>
       <div
         className='my-10 
         max-w-xs
@@ -53,6 +54,7 @@ const Home = () => {
           </div>
         </article>
       </div>
+      <ScrollToTop />
     </main>
   );
 };

@@ -2,13 +2,16 @@ import React, { useEffect } from 'react';
 import profileInfo from '../../data/profileInfo.json';
 import DarkTheme from '../darkTheme/DarkTheme';
 import WorkItems from './WorkItems';
+import ScrollToTop from '../shared/ScrollToTop';
 const Works = () => {
   useEffect(() => {
     document.title = 'Parham Mosadeqzadeh | Works';
   }, []);
   return (
-    <main className='min-h-screen  bg-neutral-50 flex flex-col items-center justify-between dark:bg-black'>
+    <main className='min-h-screen  bg-neutral-50 flex flex-col items-center justify-between dark:bg-slate-800'>
       <DarkTheme />
+      <ScrollToTop />
+
       <article className='pt-5 md:max-w-lg max-w-sm mx-auto '>
         <div>
           <h3

@@ -9,7 +9,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className='relative flex md:items-center md:h-4  md:py-7  md:justify-around  justify-between capitalize dark:bg-black dark:border-b-2 dark:border-stone-500 bg-neutral-200 z-50 '>
+    <div className='relative flex md:items-center md:h-4  md:py-7  md:justify-around  justify-between capitalize dark:bg-slate-800 dark:border-b-2 dark:border-stone-500 bg-neutral-200 z-50 '>
       {/* logo */}
       <div className='ml-2 my-3'>
         <h1 className='font-bold tracking-widest font-lobster text-blue-600 hover:text-blue-700'>
@@ -38,7 +38,7 @@ const Header = () => {
 
       {/* lists */}
       <div
-        className={`h-screen w-6/12 bg-gray-200 dark:md:bg-black  md:bg-transparent  transition-shadow  md:block md:h-fit md:relative   absolute right-0 top-0  ${
+        className={`h-screen w-6/12 bg-gray-200   md:bg-transparent  transition-shadow  md:block md:h-fit md:relative   absolute right-0 top-0  ${
           isOpen ? 'visible' : 'hidden'
         }`}
       >

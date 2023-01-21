@@ -3,25 +3,34 @@ import Title from '../layout/Title';
 import { TypeAnimation } from 'react-type-animation';
 import DarkTheme from '../darkTheme/DarkTheme';
 import expertise from '../../data/expertise.json';
+import ScrollToTop from '../shared/ScrollToTop';
 const AboutMe = () => {
   useEffect(() => {
     document.title = 'Parham Mosadeqzadeh | About me';
   }, []);
 
   return (
-    <main className='w-full mx-auto min-h-screen dark:bg-black my-0 font-montserrat'>
+    <main
+      className='w-full 
+          min-h-screen dark:bg-slate-800 my-0 font-montserrat'
+    >
+      <ScrollToTop />
       <DarkTheme />
       <div
-        className='max-w-sm
-  md:max-w-lg
-  lg:max-w-xl
-   mx-auto p-0 -mt-5'
+        className='max-w-xs
+        md:max-w-lg
+        lg:max-w-xl
+        mx-auto  p-0 -mt-5'
       >
         <div className='py-10 mx-auto h-full'>
           <Title>who am i?</Title>
         </div>
         <div className='block text-center'>
-          <p className='first-letter:capitalize  font-medium text-justify text-sm md:text-lg text-stone-500 dark:text-white'>
+          <p
+            className='first-letter:capitalize  
+          font-medium text-justify text-sm md:text-lg
+        text-stone-500 dark:text-white'
+          >
             hi, i'm
           </p>
           <div className=' font-light  text-sm text-blue-500 '>
@@ -75,17 +84,16 @@ const AboutMe = () => {
         <div className='mt-10 dark:text-stone-50 '>
           <Title>expertise</Title>
           <div>
-            <p className='text-stone-500 font-medium dark:text-stone-50'>
-              i'm expert in these techs
-            </p>
             <ul className=' '>
               {expertise.map((exp) => {
                 return (
                   <li
                     key={exp.id}
-                    className='capitalize tracking-wider font-normal'
+                    className='capitalize tracking-widest
+                    underline 
+                    font-normal'
                   >
-                    <p>{exp.exp}</p>
+                    <p className='text-md md:font-lg'>{exp.exp}</p>
                   </li>
                 );
               })}
